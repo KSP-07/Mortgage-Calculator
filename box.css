@@ -1,0 +1,19 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer-box{
+    height: 90vh;
+    width: 50%;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+.inner-box{
+    height: 90vh;
+    width: 50%;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
