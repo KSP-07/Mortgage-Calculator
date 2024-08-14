@@ -3,7 +3,7 @@ body{
     display: flex;
     justify-content: center; 
     align-items: center; 
-    height: 100vh;
+    height: 97vh;
 }
 /* label{
     width: 50%;
@@ -36,7 +36,7 @@ input[type='radio']{
     grid-template-rows: 1fr;
     /* margin: auto; */
 
-    max-width: 1000px;
+    max-width: 900px;
     justify-content: center;
     /* align-self: center; */
     /* background-color: white; */
@@ -52,9 +52,10 @@ input[type='radio']{
     
 }
 p{
-    font-size: 12px;
+    font-size: 0.85rem;
     margin: 0px;
     padding: 0px;
+    color: #7c8891;
 }
 
 .sub-container1{
@@ -62,7 +63,7 @@ p{
     /* background-color: white; */
     /* border-top-left-radius: 15px;
     border-bottom-left-radius: 15px; */
-    width: 100%;
+    width: 96%;
     display: grid;
     grid-template-columns: 1fr ;
     grid-template-rows: 5rem 0.6fr 1fr;
@@ -119,7 +120,7 @@ p{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 1rem  0.5fr;
     /* margin: 20px; */
-    padding:0px 20px 10px 20px;
+    padding:15px 20px 10px 20px;
     gap: 1rem;
 
 }
@@ -166,17 +167,18 @@ p{
 }
 
 .sub-left2 button{
-    margin-top: 1rem;
+    margin-top: 1.6rem;
     border: none;
     font-weight: 700;
     border-radius: 30px;
-    width: 70%;
+    width: 75%;
     font-size: 1rem;
     outline: none;
     cursor: pointer;
     padding: 2px 5px;
     background-color: #d7db2f;
     align-items: center;
+    padding: 0.5rem;
 }
 
 .clear-btn{
@@ -213,23 +215,25 @@ button > .label{
     justify-content: center;
 }
 .label > img{
-    width: 12%;
-    height: 60%;
+    width: 1.2rem;
+    height: 1.1rem;
     padding: 6px;   
     border-radius: 5px;
     align-items: center; 
 }
 .sub-right1{
-    padding: 0px 5px 0px 10px;
+    padding: 0px 2rem 0px 1rem;
     color: aliceblue;
     font-size: 1.5rem;
     font-family:Arial, Helvetica, sans-serif;
+    margin: 0px 0.5rem;
 }
 
 .sub-right2{
     /* width: 100%; */
     padding: 2rem 4rem;
-    margin: 1rem 1rem 5rem;
+    /* margin: 1rem 1rem 5rem ; */
+    margin: 1rem 3rem 5rem 1rem ;
     color: aliceblue;
     padding: 2rem;
     background-color: #0f2230;
@@ -255,6 +259,9 @@ button > .label{
 }
 
 @media (max-width:750px){
+    body{
+        height: 100%;
+    }
     .container{
         /* margin: 0; */
         grid-template-columns: 1fr;
@@ -262,12 +269,15 @@ button > .label{
         border-radius: initial;
     }
     .sub-container2{
-        /* padding: 0px 10px; */
+        padding: 0px 10px;
         /* margin: 0px; */
         border-radius: initial;
     }
 }
 @media (max-width:370px){
+    body{
+        height: 100%;
+    }
     .container{
         margin: 0;
         grid-template-columns: 1fr;
@@ -294,7 +304,6 @@ button > .label{
     .sub-left1{
         width: 90%;
         display: flex;
-        margin-top: 1rem;
         flex-direction: column;
         grid-template-columns: 1fr ;
         
@@ -314,6 +323,7 @@ button > .label{
         /* width: 80%; */
         /* font-size: 1rem; */
         padding: 15px;
+        /* margin: 0px 10rem; */
     }
     .sub-right2{
         /* width: 80%; */
@@ -329,7 +339,7 @@ button > .label{
         outline: none;
         cursor: pointer;
         padding: 2px 5px;
-        background-color: gold;
+        /* background-color: gold; */
         align-items: center;
     }
 
